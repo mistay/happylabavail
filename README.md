@@ -2,8 +2,7 @@
 
 First, fetch data via cronjob:
 
-crontab -e
-insert: * * * * *               /path/to/happylab.sh
+crontab -e, then insert: * * * * *               /path/to/happylab.sh
 
 happylab.sh will download files like ausstattung2015-07-11-15-03-01.html
 
